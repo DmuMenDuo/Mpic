@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644059A4216893D800F641E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644059A3216893D800F641E0 /* AppDelegate.swift */; };
+		644059A6216893D900F641E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644059A5216893D900F641E0 /* Assets.xcassets */; };
+		644059A9216893D900F641E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 644059A7216893D900F641E0 /* MainMenu.xib */; };
+		644059B5216893D900F641E0 /* MpicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644059B4216893D900F641E0 /* MpicTests.swift */; };
+		644059C0216893D900F641E0 /* MpicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644059BF216893D900F641E0 /* MpicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		644059B1216893D900F641E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64405998216893D800F641E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6440599F216893D800F641E0;
+			remoteInfo = Mpic;
+		};
+		644059BC216893D900F641E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64405998216893D800F641E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6440599F216893D800F641E0;
+			remoteInfo = Mpic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		644059A0216893D800F641E0 /* Mpic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mpic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644059A3216893D800F641E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		644059A5216893D900F641E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		644059A8216893D900F641E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		644059AA216893D900F641E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644059AB216893D900F641E0 /* Mpic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mpic.entitlements; sourceTree = "<group>"; };
+		644059B0216893D900F641E0 /* MpicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MpicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644059B4216893D900F641E0 /* MpicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpicTests.swift; sourceTree = "<group>"; };
+		644059B6216893D900F641E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644059BB216893D900F641E0 /* MpicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MpicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644059BF216893D900F641E0 /* MpicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpicUITests.swift; sourceTree = "<group>"; };
+		644059C1216893D900F641E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6440599D216893D800F641E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644059AD216893D900F641E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644059B8216893D900F641E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64405997216893D800F641E0 = {
+			isa = PBXGroup;
+			children = (
+				644059A2216893D800F641E0 /* Mpic */,
+				644059B3216893D900F641E0 /* MpicTests */,
+				644059BE216893D900F641E0 /* MpicUITests */,
+				644059A1216893D800F641E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		644059A1216893D800F641E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644059A0216893D800F641E0 /* Mpic.app */,
+				644059B0216893D900F641E0 /* MpicTests.xctest */,
+				644059BB216893D900F641E0 /* MpicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644059A2216893D800F641E0 /* Mpic */ = {
+			isa = PBXGroup;
+			children = (
+				644059A3216893D800F641E0 /* AppDelegate.swift */,
+				644059A5216893D900F641E0 /* Assets.xcassets */,
+				644059A7216893D900F641E0 /* MainMenu.xib */,
+				644059AA216893D900F641E0 /* Info.plist */,
+				644059AB216893D900F641E0 /* Mpic.entitlements */,
+			);
+			path = Mpic;
+			sourceTree = "<group>";
+		};
+		644059B3216893D900F641E0 /* MpicTests */ = {
+			isa = PBXGroup;
+			children = (
+				644059B4216893D900F641E0 /* MpicTests.swift */,
+				644059B6216893D900F641E0 /* Info.plist */,
+			);
+			path = MpicTests;
+			sourceTree = "<group>";
+		};
+		644059BE216893D900F641E0 /* MpicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				644059BF216893D900F641E0 /* MpicUITests.swift */,
+				644059C1216893D900F641E0 /* Info.plist */,
+			);
+			path = MpicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6440599F216893D800F641E0 /* Mpic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644059C4216893D900F641E0 /* Build configuration list for PBXNativeTarget "Mpic" */;
+			buildPhases = (
+				6440599C216893D800F641E0 /* Sources */,
+				6440599D216893D800F641E0 /* Frameworks */,
+				6440599E216893D800F641E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mpic;
+			productName = Mpic;
+			productReference = 644059A0216893D800F641E0 /* Mpic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		644059AF216893D900F641E0 /* MpicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644059C7216893D900F641E0 /* Build configuration list for PBXNativeTarget "MpicTests" */;
+			buildPhases = (
+				644059AC216893D900F641E0 /* Sources */,
+				644059AD216893D900F641E0 /* Frameworks */,
+				644059AE216893D900F641E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644059B2216893D900F641E0 /* PBXTargetDependency */,
+			);
+			name = MpicTests;
+			productName = MpicTests;
+			productReference = 644059B0216893D900F641E0 /* MpicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		644059BA216893D900F641E0 /* MpicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644059CA216893D900F641E0 /* Build configuration list for PBXNativeTarget "MpicUITests" */;
+			buildPhases = (
+				644059B7216893D900F641E0 /* Sources */,
+				644059B8216893D900F641E0 /* Frameworks */,
+				644059B9216893D900F641E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				644059BD216893D900F641E0 /* PBXTargetDependency */,
+			);
+			name = MpicUITests;
+			productName = MpicUITests;
+			productReference = 644059BB216893D900F641E0 /* MpicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64405998216893D800F641E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = menduo;
+				TargetAttributes = {
+					6440599F216893D800F641E0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					644059AF216893D900F641E0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6440599F216893D800F641E0;
+					};
+					644059BA216893D900F641E0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 6440599F216893D800F641E0;
+					};
+				};
+			};
+			buildConfigurationList = 6440599B216893D800F641E0 /* Build configuration list for PBXProject "Mpic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64405997216893D800F641E0;
+			productRefGroup = 644059A1216893D800F641E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6440599F216893D800F641E0 /* Mpic */,
+				644059AF216893D900F641E0 /* MpicTests */,
+				644059BA216893D900F641E0 /* MpicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6440599E216893D800F641E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644059A6216893D900F641E0 /* Assets.xcassets in Resources */,
+				644059A9216893D900F641E0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644059AE216893D900F641E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644059B9216893D900F641E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6440599C216893D800F641E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644059A4216893D800F641E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644059AC216893D900F641E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644059B5216893D900F641E0 /* MpicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		644059B7216893D900F641E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644059C0216893D900F641E0 /* MpicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		644059B2216893D900F641E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6440599F216893D800F641E0 /* Mpic */;
+			targetProxy = 644059B1216893D900F641E0 /* PBXContainerItemProxy */;
+		};
+		644059BD216893D900F641E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6440599F216893D800F641E0 /* Mpic */;
+			targetProxy = 644059BC216893D900F641E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		644059A7216893D900F641E0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644059A8216893D900F641E0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		644059C2216893D900F641E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		644059C3216893D900F641E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		644059C5216893D900F641E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mpic/Mpic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mpic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.menduo.Mpic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		644059C6216893D900F641E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mpic/Mpic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Mpic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.menduo.Mpic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		644059C8216893D900F641E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MpicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.menduo.MpicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mpic.app/Contents/MacOS/Mpic";
+			};
+			name = Debug;
+		};
+		644059C9216893D900F641E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MpicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.menduo.MpicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mpic.app/Contents/MacOS/Mpic";
+			};
+			name = Release;
+		};
+		644059CB216893D900F641E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MpicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.menduo.MpicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Mpic;
+			};
+			name = Debug;
+		};
+		644059CC216893D900F641E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MpicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.menduo.MpicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Mpic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6440599B216893D800F641E0 /* Build configuration list for PBXProject "Mpic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644059C2216893D900F641E0 /* Debug */,
+				644059C3216893D900F641E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644059C4216893D900F641E0 /* Build configuration list for PBXNativeTarget "Mpic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644059C5216893D900F641E0 /* Debug */,
+				644059C6216893D900F641E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644059C7216893D900F641E0 /* Build configuration list for PBXNativeTarget "MpicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644059C8216893D900F641E0 /* Debug */,
+				644059C9216893D900F641E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644059CA216893D900F641E0 /* Build configuration list for PBXNativeTarget "MpicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644059CB216893D900F641E0 /* Debug */,
+				644059CC216893D900F641E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64405998216893D800F641E0 /* Project object */;
+}
