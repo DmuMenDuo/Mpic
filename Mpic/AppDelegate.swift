@@ -11,11 +11,20 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-    @IBOutlet weak var window: NSWindow!
-
-
+    @IBOutlet weak var statusMenu: NSMenu!
+    let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+    
+    @IBAction func quitClicked(_ sender: NSMenuItem) {
+        NSApplication.shared.terminate(self)
+    }
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        let icon = NSImage(named: "statusIcon")
+        icon?.isTemplate = true // best for dark mode
+        statusItem.button?.image = icon
+        //statusItem.button?.title = "Mpic"
+        statusItem.menu = statusMenu
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

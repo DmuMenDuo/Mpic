@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		644059A4216893D800F641E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644059A3216893D800F641E0 /* AppDelegate.swift */; };
-		644059A6216893D900F641E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644059A5216893D900F641E0 /* Assets.xcassets */; };
 		644059A9216893D900F641E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 644059A7216893D900F641E0 /* MainMenu.xib */; };
 		644059B5216893D900F641E0 /* MpicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644059B4216893D900F641E0 /* MpicTests.swift */; };
 		644059C0216893D900F641E0 /* MpicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644059BF216893D900F641E0 /* MpicUITests.swift */; };
+		644059D021689E9500F641E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644059CF21689E9500F641E0 /* Assets.xcassets */; };
+		644059D22168A54500F641E0 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644059D12168A54500F641E0 /* StatusMenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +35,6 @@
 /* Begin PBXFileReference section */
 		644059A0216893D800F641E0 /* Mpic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mpic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		644059A3216893D800F641E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		644059A5216893D900F641E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		644059A8216893D900F641E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		644059AA216893D900F641E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		644059AB216893D900F641E0 /* Mpic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mpic.entitlements; sourceTree = "<group>"; };
@@ -44,6 +44,8 @@
 		644059BB216893D900F641E0 /* MpicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MpicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		644059BF216893D900F641E0 /* MpicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MpicUITests.swift; sourceTree = "<group>"; };
 		644059C1216893D900F641E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644059CF21689E9500F641E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		644059D12168A54500F641E0 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +96,12 @@
 		644059A2216893D800F641E0 /* Mpic */ = {
 			isa = PBXGroup;
 			children = (
+				644059CF21689E9500F641E0 /* Assets.xcassets */,
 				644059A3216893D800F641E0 /* AppDelegate.swift */,
-				644059A5216893D900F641E0 /* Assets.xcassets */,
 				644059A7216893D900F641E0 /* MainMenu.xib */,
 				644059AA216893D900F641E0 /* Info.plist */,
 				644059AB216893D900F641E0 /* Mpic.entitlements */,
+				644059D12168A54500F641E0 /* StatusMenuController.swift */,
 			);
 			path = Mpic;
 			sourceTree = "<group>";
@@ -183,6 +186,9 @@
 		64405998216893D800F641E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Menu,
+				);
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = menduo;
@@ -225,7 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				644059A6216893D900F641E0 /* Assets.xcassets in Resources */,
+				644059D021689E9500F641E0 /* Assets.xcassets in Resources */,
 				644059A9216893D900F641E0 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644059D22168A54500F641E0 /* StatusMenuController.swift in Sources */,
 				644059A4216893D800F641E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
