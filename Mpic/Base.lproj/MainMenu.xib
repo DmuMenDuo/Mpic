@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14313.18"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -11,21 +11,32 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Mpic" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Mpic" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="eH1-cb-t7x" customClass="StatusMenuController" customModule="Mpic" customModuleProvider="target">
             <connections>
-                <outlet property="statusMenu" destination="evV-sr-7rZ" id="XtV-vD-AcE"/>
+                <outlet property="statusMenu" destination="evV-sr-7rZ" id="Uf1-mo-kGK"/>
             </connections>
         </customObject>
-        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu id="evV-sr-7rZ">
             <items>
+                <menuItem title="上传" keyEquivalent="u" id="kZO-Ag-mQb">
+                    <modifierMask key="keyEquivalentModifierMask" control="YES"/>
+                </menuItem>
+                <menuItem title="转md" keyEquivalent="m" id="YkL-Jj-X3m">
+                    <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                </menuItem>
+                <menuItem title="设置" id="WrD-h8-cKp">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
                 <menuItem title="Quit" id="Sxy-HQ-Yfn">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="quitClicked:" target="Voe-Tx-rLC" id="FgL-LV-aoh"/>
+                        <action selector="quitClicked:" target="eH1-cb-t7x" id="bu4-Bj-kaC"/>
                     </connections>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="81" y="182"/>
         </menu>
     </objects>
 </document>
