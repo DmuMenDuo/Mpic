@@ -11,6 +11,7 @@ import Cocoa
 class StatusMenuController: NSObject {
     @IBOutlet weak var statusMenu: NSMenu!
     let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+    let notifation = Notifications.init()
     
     @IBAction func quitClicked(_ sender: NSMenuItem) {
         NSApplication.shared.terminate(self)
@@ -22,8 +23,10 @@ class StatusMenuController: NSObject {
     
     @IBAction func uploadClicked(_ sender: NSMenuItem) {
         print("触发上传事件...")
+        notifation.notify(title: "徐钰桢", infomation: "你这个年纪，你怎么能睡的着觉~", msgCode: Constants.MsgCode.success)
     }
     
+   
     @IBAction func markdownClicked(_ sender: NSMenuItem) {
         print("触发转化为markdown格式事件...")
     }

@@ -20,19 +20,19 @@
         </customObject>
         <menu id="evV-sr-7rZ">
             <items>
-                <menuItem title="Upload" keyEquivalent="u" id="RtM-53-jCd">
+                <menuItem title="Upload" alternate="YES" keyEquivalent="u" allowsKeyEquivalentWhenHidden="YES" id="RtM-53-jCd">
                     <modifierMask key="keyEquivalentModifierMask" option="YES"/>
                     <connections>
                         <action selector="uploadClicked:" target="eH1-cb-t7x" id="mKm-ff-vys"/>
                     </connections>
                 </menuItem>
-                <menuItem title="MarkDown" keyEquivalent="m" id="oNu-gh-mUT">
+                <menuItem title="MarkDown" alternate="YES" keyEquivalent="m" allowsKeyEquivalentWhenHidden="YES" id="oNu-gh-mUT">
                     <modifierMask key="keyEquivalentModifierMask" option="YES"/>
                     <connections>
                         <action selector="markdownClicked:" target="eH1-cb-t7x" id="fos-Ts-BjO"/>
                     </connections>
                 </menuItem>
-                <menuItem title="Preferences..." keyEquivalent="," id="ZcD-e4-Xeo">
+                <menuItem title="Preferences..." alternate="YES" keyEquivalent="," allowsKeyEquivalentWhenHidden="YES" id="ZcD-e4-Xeo">
                     <connections>
                         <action selector="preferenceClicked:" target="eH1-cb-t7x" id="osP-DX-PRT"/>
                     </connections>
