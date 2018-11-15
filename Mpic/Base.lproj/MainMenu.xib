@@ -20,23 +20,32 @@
         </customObject>
         <menu id="evV-sr-7rZ">
             <items>
-                <menuItem title="上传" keyEquivalent="u" id="kZO-Ag-mQb">
-                    <modifierMask key="keyEquivalentModifierMask" control="YES"/>
-                </menuItem>
-                <menuItem title="转md" keyEquivalent="m" id="YkL-Jj-X3m">
+                <menuItem title="Upload" keyEquivalent="u" id="RtM-53-jCd">
                     <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                    <connections>
+                        <action selector="uploadClicked:" target="eH1-cb-t7x" id="mKm-ff-vys"/>
+                    </connections>
                 </menuItem>
-                <menuItem title="设置" id="WrD-h8-cKp">
-                    <modifierMask key="keyEquivalentModifierMask"/>
+                <menuItem title="MarkDown" keyEquivalent="m" id="oNu-gh-mUT">
+                    <modifierMask key="keyEquivalentModifierMask" option="YES"/>
+                    <connections>
+                        <action selector="markdownClicked:" target="eH1-cb-t7x" id="fos-Ts-BjO"/>
+                    </connections>
                 </menuItem>
+                <menuItem title="Preferences..." keyEquivalent="," id="ZcD-e4-Xeo">
+                    <connections>
+                        <action selector="preferenceClicked:" target="eH1-cb-t7x" id="osP-DX-PRT"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="MdE-2n-P8o" colorLabel="IBBuiltInLabel-Yellow"/>
                 <menuItem title="Quit" id="Sxy-HQ-Yfn">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="quitClicked:" target="eH1-cb-t7x" id="bu4-Bj-kaC"/>
+                        <action selector="quitClicked:" target="eH1-cb-t7x" id="MTg-Ym-YUt"/>
                     </connections>
                 </menuItem>
             </items>
-            <point key="canvasLocation" x="81" y="182"/>
+            <point key="canvasLocation" x="80.5" y="191"/>
         </menu>
     </objects>
 </document>

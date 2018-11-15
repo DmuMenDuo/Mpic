@@ -16,11 +16,25 @@ class StatusMenuController: NSObject {
         NSApplication.shared.terminate(self)
     }
     
+    @IBAction func preferenceClicked(_ sender: NSMenuItem) {
+        print("进入配置页面...")
+    }
+    
+    @IBAction func uploadClicked(_ sender: NSMenuItem) {
+        print("触发上传事件...")
+    }
+    
+    @IBAction func markdownClicked(_ sender: NSMenuItem) {
+        print("触发转化为markdown格式事件...")
+    }
+    
+    //MainMenu.xib初始化时被执行
     override func awakeFromNib() {
         let icon = NSImage(named: "statusIcon")
         icon?.isTemplate = true // best for dark mode
         statusItem.button?.image = icon
         statusItem.menu = statusMenu
-    }
+    };
+    
     
 }

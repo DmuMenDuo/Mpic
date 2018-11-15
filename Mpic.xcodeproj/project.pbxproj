@@ -13,6 +13,7 @@
 		644059C0216893D900F641E0 /* MpicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644059BF216893D900F641E0 /* MpicUITests.swift */; };
 		644059D021689E9500F641E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644059CF21689E9500F641E0 /* Assets.xcassets */; };
 		644059D22168A54500F641E0 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644059D12168A54500F641E0 /* StatusMenuController.swift */; };
+		64E1E969219D69F300CBD2DB /* StatusMenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E1E968219D69F300CBD2DB /* StatusMenuService.swift */; };
 		64E4D532219C89A900D86D9A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 64E4D531219C89A900D86D9A /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		644059C1216893D900F641E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		644059CF21689E9500F641E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		644059D12168A54500F641E0 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		64E1E968219D69F300CBD2DB /* StatusMenuService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuService.swift; sourceTree = "<group>"; };
 		64E4D531219C89A900D86D9A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				644059AA216893D900F641E0 /* Info.plist */,
 				644059AB216893D900F641E0 /* Mpic.entitlements */,
 				644059D12168A54500F641E0 /* StatusMenuController.swift */,
+				64E1E968219D69F300CBD2DB /* StatusMenuService.swift */,
 			);
 			path = Mpic;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64E1E969219D69F300CBD2DB /* StatusMenuService.swift in Sources */,
 				644059D22168A54500F641E0 /* StatusMenuController.swift in Sources */,
 				644059A4216893D800F641E0 /* AppDelegate.swift in Sources */,
 			);
